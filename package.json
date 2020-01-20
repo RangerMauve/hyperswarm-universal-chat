@@ -1,0 +1,38 @@
+{
+  "name": "hyperswarm-universal-chat",
+  "version": "0.0.0",
+  "description": "A basic demo showing how you can make a gossip based p2p chat using hyperswarm.",
+  "main": "index.js",
+  "browser": {
+    "hyperswarm": "hyperswarm-web"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-browser": "browserify ./browser.js > bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RangerMauve/hyperswarm-universal-chat.git"
+  },
+  "keywords": [
+    "dat",
+    "chat",
+    "hyperswarm",
+    "message"
+  ],
+  "author": "rangermauve",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RangerMauve/hyperswarm-universal-chat/issues"
+  },
+  "homepage": "https://github.com/RangerMauve/hyperswarm-universal-chat#readme",
+  "dependencies": {
+    "hyperswarm": "^2.4.0",
+    "hyperswarm-web": "^1.0.0",
+    "minimist": "^1.2.0",
+    "ndjson": "^1.5.0"
+  },
+  "devDependencies": {
+    "browserify": "^16.5.0"
+  }
+}
